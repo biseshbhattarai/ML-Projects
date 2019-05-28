@@ -1,3 +1,20 @@
 Projects type :   Machine learning and data analysis 
 	1) Prediction of stocks using linear regression.
 	2) Linear Regession and coeffient of determination algorithm from scratch and predicting data using it.
+
+
+Calculation of linear regression: 
+Formula : 
+	y = mx + b 
+	where, 
+	m = slope of the line,
+	b = y-intercept 
+	y = dependent variable ,
+	x = independent variable
+
+	Calculation of m = mean(x*y) - (mean(x) * mean(y)) / (mean(x**2) - ((mean(x))**2 ) 
+	Calculation of b = mean(y) - (m * mean(x))
+
+Calculation of coefficient of determination : 
+	R ^ 2 = 1 - ((Squared error(regression_line)/ Squared_error(y))
+	the more the value of R^2 , the more accurate the prediction is
